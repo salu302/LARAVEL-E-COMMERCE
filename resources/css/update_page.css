@@ -1,0 +1,82 @@
+/* Styles for the Update Product page */
+
+.update-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 16px;
+}
+
+.update-form {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(31, 47, 70, 0.06);
+    padding: 28px;
+    max-width: 760px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.update-form h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 22px;
+    color: #1f2d3d;
+}
+
+.update-form .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.update-form label {
+    font-weight: 600;
+    color: #2b3a4a;
+}
+
+.form-control {
+    padding: 10px 12px;
+    border: 1px solid #e3e8ee;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #1f2d3d;
+    background: #fff;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #5b9bff;
+    box-shadow: 0 6px 18px rgba(91, 155, 255, 0.12);
+}
+
+textarea.form-control {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.current-image img {
+    max-width: 220px;
+    max-height: 220px;
+    border-radius: 8px;
+    border: 1px solid #f1f5f9;
+    display: block;
+    margin-top: 6px;
+}
+
+.form-control-file {
+    padding: 6px 0;
+}
+
+.btn-block {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+@media (max-width: 640px) {
+    .update-form { padding: 18px; }
+    .form-control { font-size: 14px; }
+    .update-form h2 { font-size: 20px; }
+}
